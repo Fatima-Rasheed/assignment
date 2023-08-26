@@ -32,3 +32,11 @@ function areaofcircle(radius) {
 var radius = 54;
 console.log(radius);
 console.log(areaofcircle(radius));
+// Question no 5
+var listofgrades = [32, 65, 12, 86];
+for (let index = 0; index <= listofgrades.length + 1; index++) {
+    if (listofgrades[index] < 50) {
+        listofgrades.splice(index, 1);
+    }
+}
+console.log(listofgrades);
