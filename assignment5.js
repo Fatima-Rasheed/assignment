@@ -10,7 +10,7 @@ console.log(sum);
 // Question no 2
 var array = [20, 56, 77, 89, 44];
 for (let j = 0; j <= array.length; j++) {
-    if (array[j] % 2 !== 0) {
+    if (array[j] % 2 == 0) {
         array.splice(j, 1);
     }
 }
@@ -24,4 +24,11 @@ for (let j = 0; j <= array.length; j++) {
     }
 }
 console.log(array);
-// Question no 3
+// Question no 4
+function areaofcircle(radius) {
+    var area = 3.14 * radius * radius;
+    return area;
+}
+var radius = 54;
+console.log(radius);
+console.log(areaofcircle(radius));
