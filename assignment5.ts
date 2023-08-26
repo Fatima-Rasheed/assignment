@@ -8,9 +8,9 @@ for(let i=0;i<=20;i++){
 // Question no 2
 var array:number[]=[20,56,77,89,44];
 for(let j:number=0;j<=array.length;j++){
-    if(array[j]%2==0){
+    if(array[j]%2!==0){
 array.splice(j ,1)
-
+j--;
     }
 }console.log(array)
 // Question n03 
