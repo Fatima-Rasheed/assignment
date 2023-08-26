@@ -18,7 +18,7 @@ for (let j = 0; j <= array.length; j++) {
 console.log(evenNumbers);
 var array = [20, 56, 77, 89, 44];
 for (let j = 0; j <= array.length; j++) {
-    if (array[j] % 2 !== 0) {
+    if (array[j] % 2 == 0) {
         array.splice(j, 1);
         j--;
     }
