@@ -36,3 +36,17 @@ for(let index=0;index<=listofgrades.length+1;index++){
     listofgrades.splice(index,1)    
     }
     }console.log(listofgrades)
+    // question no 6
+    var array2:number[]=[30,22,13,76,46]
+    var largestNumb:number=array2[0];
+    function largest (array1:number){
+    for(let index1:number=0;index1>=array2.length;index1++){
+        if (array[index1]>largestNumb){
+            largestNumb=array[index1];
+        }
+    }
+        return largestNumb;
+    }
+
+let largestNum:number=largest(0)
+console.log(largestNum);

@@ -40,3 +40,16 @@ for (let index = 0; index <= listofgrades.length + 1; index++) {
     }
 }
 console.log(listofgrades);
+// question no 6
+var array2 = [30, 22, 13, 76, 46];
+var largestNumb = array2[0];
+function largest(array1) {
+    for (let index1 = 0; index1 >= array2.length; index1++) {
+        if (array[index1] > largestNumb) {
+            largestNumb = array[index1];
+        }
+    }
+    return largestNumb;
+}
+let largestNum = largest(0);
+console.log(largestNum);
