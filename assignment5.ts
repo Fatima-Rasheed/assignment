@@ -48,5 +48,5 @@ for(let index=0;index<=listofgrades.length+1;index++){
         return largestNumb;
     }
 
-let largestNum:number=largest(0)
+let largestNum:number=largest(array2)
 console.log(largestNum);
