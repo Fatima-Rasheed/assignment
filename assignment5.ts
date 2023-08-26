@@ -13,4 +13,4 @@ for(let j:number=0;j<=array.length;j++){
         evenNumbers.push(j)
     }
 
-}console.log(evenNumbers)
+}console.log(array)
