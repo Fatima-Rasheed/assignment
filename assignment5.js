@@ -9,14 +9,14 @@ for (let i = 0; i <= 20; i++) {
 console.log(sum);
 // Question no 2
 var array = [20, 56, 77, 89, 44];
-var evenNumbers = [];
 for (let j = 0; j <= array.length; j++) {
-    if (j % 2 == 0) {
-        evenNumbers.push(j);
+    if (array[j] % 2 == 0) {
+        array.splice(j, 1);
     }
 }
-console.log(evenNumbers);
-var array = [20, 56, 77, 89, 44];
+console.log(array);
+// Question n03 
+var array = [21, 76, 93, 32, 51];
 for (let j = 0; j <= array.length; j++) {
     if (array[j] % 2 == 0) {
         array.splice(j, 1);
@@ -24,3 +24,4 @@ for (let j = 0; j <= array.length; j++) {
     }
 }
 console.log(array);
+// Question no 3
